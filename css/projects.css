@@ -1,0 +1,94 @@
+#projects-section {
+ background: url("https://s4.postimg.org/sydai52pp/Jnv8l2.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+  transition: all 1s;
+}
+#projects-section #projects-section-bg {
+  padding-top: 60px;
+  background: rgba(11,8,80,0.75);
+  height: 100%;
+  width: 100%;
+  padding-bottom: 30px;
+}
+#projects-section #projects-section-bg p.first {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+#projects-section #projects-section-bg .project-box {
+  margin-top: 15px;
+}
+#projects-section #projects-section-bg .project-box .project-name {
+  font-weight: 900;
+  margin-bottom: 15px;
+  width: 100%;
+}
+#projects-section #projects-section-bg .project-box .project-name i {
+  color: #009688;
+  font-size: 2rem;
+  margin-right: 5px;
+}
+#projects-section #projects-section-bg .project-box .project-description {
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+#projects-section #projects-section-bg .project-box .project-tools ul {
+  margin-top: 15px;
+}
+#projects-section #projects-section-bg .project-box .project-tools ul li {
+  font-size: 1.3rem;
+  font-weight: 900;
+  display: inline;
+  padding: 12px 15px;
+  margin: 3px;
+  color: #fff;
+  font-weight: 900;
+  background: rgba(255,255,255,0.075);
+}
+#projects-section #projects-section-bg .project-box p {
+  margin-bottom: 10px;
+}
+#projects-section #projects-section-bg .project-box .project-features p {
+  display: block;
+  color: #0f1654;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  font-size: 1.3rem;
+  background: #fff;
+  padding: 25px 35px;
+}
+#projects-section #projects-section-bg .project-box .project-features p strong {
+  font-weight: 900;
+}
+#projects-section #projects-section-bg #next {
+  margin-left: auto;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: 300;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+#projects-section #projects-section-bg #next i {
+  margin-left: 5px;
+  font-size: 2.15rem;
+}
+#projects-section #projects-section-bg #next:hover {
+  opacity: 1;
+  color: #009688;
+  transform: scale(1.2);
+  cursor: crosshair;
+}
+
+.agt{
+  margin-left: 60%
+
+}
+.oth{
+  margin-left: 17%;
+}

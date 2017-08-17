@@ -1,0 +1,16 @@
+#skills-section {
+  padding-top: 60px;
+}
+#skills ul li {
+  font-size: 1.3rem;
+  display: inline;
+  padding: 12px 15px;
+  margin: 3px;
+  color: #fff;
+  font-weight: 300;
+ /*  background: rgba(11,8,80,0.90); */
+  background: #009688;
+}
+#skills ul li.dd {
+  font-weight: 900;
+}

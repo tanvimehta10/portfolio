@@ -1,0 +1,30 @@
+#social-bar {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  font-size: 35px;
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+}
+#social-bar i {
+  color: #fff;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+#social-bar i:hover {
+  opacity: 1;
+  transform: scale(1.3);
+  color: #009688;
+}
+@media screen and (max-width: 879px) {
+  #social-bar {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+  #social-bar i {
+    margin: 0 35px;
+  }
+}

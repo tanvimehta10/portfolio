@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  list-style: none;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.col {
+  flex-direction: column;
+}
+header,
+nav,
+footer,
+div,
+section,
+aside,
+#intro,
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  background-image: url("../images/ny.png");
+}
+.title {
+  font-size: 3.434rem;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+.sub-title {
+  font-size: 2.414rem;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+strong {
+  font-weight: 900;
+}
+h1 {
+  font-size: 2.827rem;
+}
+h2 {
+  font-size: 1.999rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.707rem;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.content-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1050px) {
+  .content-container {
+    width: 90%;
+  }
+}
+.section-head h1 {
+  font-weight: 900;
+}
+.section-head h2 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.hidden {
+  display: none;
+}
+hr {
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background: #009688;
+}
+.sel {
+  border: 1px solid #f00;
+}
+a {
+  font-weight: 700;
+  color: #009688;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mt-15px {
+  margin-top: 15px;
+}
+.mb-15px {
+  margin-bottom: 15px;
+}
+.mb-10px {
+  margin-bottom: 10px;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.label:after {
+    content: '\A';
+    white-space: pre;
+}
+
+.marginRight{
+    margin-right: 5px;
+}
